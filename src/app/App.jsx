@@ -1,8 +1,7 @@
 import {AppStoreLink} from "./AppStoreLink";
-
 export default function App() {
     return (
-        <div className="relative isolate bg-white">
+        <div className="flex flex-1 relative isolate bg-white">
 
             <svg
                 className="absolute inset-0 -z-10 h-full w-full stroke-gray-200 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]"
@@ -43,7 +42,7 @@ export default function App() {
                         <AppStoreLink></AppStoreLink>
                     </div>
                 </div>
-                <div className="mt-16 sm:mt-24 lg:mt-0 lg:flex-shrink-0 lg:flex-grow">
+                <div className="hidden lg:flex mt-16 lg:mt-0 lg:flex-shrink-0 lg:flex-grow">
                     <svg viewBox="0 0 366 729" role="img" className="mx-auto w-[22.875rem] max-w-full drop-shadow-xl">
                         <title>App screenshot</title>
                         <defs>
@@ -65,7 +64,7 @@ export default function App() {
                             transform="translate(24 24)"
                             clipPath="url(#2ade4387-9c63-4fc4-b754-10e687a0d332)"
                         >
-                            <img  alt="sample"/>
+                            <img src="https://tailwindui.com/img/component-images/mobile-app-screenshot.png" alt="sample"/>
                         </foreignObject>
                     </svg>
                 </div>
